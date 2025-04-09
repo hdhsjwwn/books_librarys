@@ -144,3 +144,15 @@ body {
   .grid img {
     width: 100%;
 }
+@media (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block; /* Ensures divs sit next to each other */
+        box-sizing: border-box; /* Ensures padding and borders are included in the width */
+    }
+
+    img {
+        height: 30vh; /* Restrict image height to 30% of the viewport height */
+        width: auto;  /* Maintain aspect ratio */
+    }
+}
